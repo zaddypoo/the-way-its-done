@@ -12,10 +12,8 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.oredict.OreDictionary;
 
-/**
- * Created by Zaddy on 12/16/2014.
- */
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 
 public class TheWayItsDone
@@ -47,6 +45,12 @@ public class TheWayItsDone
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-        LogHelper.info("Ppost Initialization Complete!");
+        for (String oreName : OreDictionary.getOreNames())
+        {
+            LogHelper.info(oreName);
+            OreDictionary.getOres(oreName);
+        }
+
+        LogHelper.info("Post Initialization Complete!");
     }
 }

@@ -10,5 +10,4 @@ public class Reference {
 
 
     // Random references
-    public static final String CREATIVE_TAB_LABEL = "Zaddy's Shit";
 }

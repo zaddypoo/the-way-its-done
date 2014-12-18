@@ -7,17 +7,11 @@ import net.minecraft.item.Item;
 
 public class CreativeTabTWID
 {
-    public static final CreativeTabs TWID_TAB = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs TWID_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem() {
             return ModItems.husky;
-        }
-
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return Reference.CREATIVE_TAB_LABEL;
         }
     };
 }
