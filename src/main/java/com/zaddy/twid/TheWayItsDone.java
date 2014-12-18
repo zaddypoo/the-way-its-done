@@ -1,6 +1,8 @@
 package com.zaddy.twid;
 
 import com.zaddy.twid.handler.ConfigurationHandler;
+import com.zaddy.twid.init.ModBlocks;
+import com.zaddy.twid.init.ModItems;
 import com.zaddy.twid.proxy.IProxy;
 import com.zaddy.twid.reference.Reference;
 import com.zaddy.twid.utility.LogHelper;
@@ -30,6 +32,10 @@ public class TheWayItsDone
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre Initialization Complete!");
+
+        ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

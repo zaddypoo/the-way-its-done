@@ -1,11 +1,44 @@
-[16:33:09] [main/INFO]: Setting user: Player565
-[16:33:11] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:33:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Way It's Done
-[16:33:24] [Sound Library Loader/INFO]: Sound engine started
-[16:33:26] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[16:33:26] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:33:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Way It's Done
-[16:33:27] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[16:33:27] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:33:28] [Sound Library Loader/INFO]: Sound engine started
-[16:33:42] [Client thread/INFO]: Stopping!
+[21:04:48] [main/INFO]: Setting user: Player501
+[21:04:50] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:05:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Way It's Done
+[21:05:02] [Sound Library Loader/INFO]: Sound engine started
+[21:05:05] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[21:05:05] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[21:05:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Way It's Done
+[21:05:06] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[21:05:06] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[21:05:07] [Sound Library Loader/INFO]: Sound engine started
+[21:05:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:05:18] [Server thread/INFO]: Generating keypair
+[21:05:18] [Server thread/INFO]: Preparing start region for level 0
+[21:05:19] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:05:54] [Server thread/INFO]: Stopping server
+[21:05:54] [Server thread/INFO]: Saving players
+[21:05:54] [Server thread/INFO]: Saving worlds
+[21:05:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:05:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:05:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:05:55] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:05:55] [Server thread/INFO]: Generating keypair
+[21:05:55] [Server thread/INFO]: Preparing start region for level 0
+[21:05:55] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:05:56] [Server thread/INFO]: Player501[local:E:c70532ca] logged in with entity id 356 at (-98.5, 4.0, -271.5)
+[21:05:56] [Server thread/INFO]: Player501 joined the game
+[21:06:24] [Client thread/INFO]: [CHAT] TheWayItsDone:flag, TheWayItsDone:mapleLeaf
+[21:06:27] [Server thread/INFO]: [Player501: Given [Finland Flag] * 10 to Player501]
+[21:06:27] [Client thread/INFO]: [CHAT] Given [Finland Flag] * 10 to Player501
+[21:06:39] [Server thread/INFO]: Saving and pausing game...
+[21:06:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:06:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:06:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:06:47] [Server thread/INFO]: Saving and pausing game...
+[21:06:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:06:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:06:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:06:48] [Client thread/INFO]: Stopping!
+[21:06:48] [Server thread/INFO]: Stopping server
+[21:06:48] [Server thread/INFO]: Saving players
+[21:06:48] [Server thread/INFO]: Saving worlds
+[21:06:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:06:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:06:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
