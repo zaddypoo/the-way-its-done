@@ -1,5 +1,6 @@
 package com.zaddy.twid.item;
 
+import com.zaddy.twid.creativetab.CreativeTabTWID;
 import com.zaddy.twid.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -7,16 +8,13 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-/**
- * Created by Zaddy on 12/17/2014.
- */
 public class ItemTWID extends Item
 {
     public ItemTWID()
     {
         super();
         this.maxStackSize = 1;
-
+        this.setCreativeTab(CreativeTabTWID.TWID_TAB);
     }
 
     @Override
