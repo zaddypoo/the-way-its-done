@@ -3,6 +3,7 @@ package com.zaddy.twid;
 import com.zaddy.twid.handler.ConfigurationHandler;
 import com.zaddy.twid.init.ModBlocks;
 import com.zaddy.twid.init.ModItems;
+import com.zaddy.twid.init.Recipes;
 import com.zaddy.twid.proxy.IProxy;
 import com.zaddy.twid.reference.Reference;
 import com.zaddy.twid.utility.LogHelper;
@@ -39,6 +40,7 @@ public class TheWayItsDone
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        Recipes.init();
         LogHelper.info("Initialization Complete!");
     }
 
