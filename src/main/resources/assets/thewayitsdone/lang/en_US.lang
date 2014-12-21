@@ -1,9 +1,18 @@
 # Items
-item.thewayitsdone:mapleLeaf.name=Maple Leaf of Faggotry
+item.thewayitsdone:mapleLeaf.name=Maple Leaf
 item.thewayitsdone:husky.name=Zaddy's Creative Tab Icon Placeholder
+item.thewayitsdone:table.name=Random Table
+item.cheese.name=Roshan's Cheese
+item.grilledCheese.name=Grilled Cheese
 
 # Blocks
 tile.thewayitsdone:flag.name=Finland Flag
+tile.thewayitsdone:blockTable.name=Random Table
 
-# Item Groups
-itemGroup.thewayitsdone=Zaddy's Shit
+# Creative Tabs
+itemGroup.thewayitsdone=Zaddy's Creative Tab
+
+# Keys
+keys.twid.category=Zaddy's Keybinds
+keys.twid.charge=Charge
+keys.twid.release=Release

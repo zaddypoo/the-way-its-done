@@ -1,7 +1,14 @@
 package com.zaddy.twid.proxy;
 
-/**
- * Created by Zaddy on 12/16/2014.
- */
-public class ClientProxy extends CommonProxy {
+import com.zaddy.twid.client.settings.Keybindings;
+import cpw.mods.fml.client.registry.ClientRegistry;
+
+public class ClientProxy extends CommonProxy
+{
+    @Override
+    public void registerKeyBindings()
+    {
+        ClientRegistry.registerKeyBinding(Keybindings.charge);
+        ClientRegistry.registerKeyBinding(Keybindings.release);
+    }
 }
