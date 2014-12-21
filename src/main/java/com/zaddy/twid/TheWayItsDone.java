@@ -49,6 +49,7 @@ public class TheWayItsDone
     {
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
         MinecraftForge.EVENT_BUS.register(new DropHandler());
+        ModBlocks.registerTileEntities();
         Recipes.init();
         LogHelper.info("Initialization Complete!");
     }

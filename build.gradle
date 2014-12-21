@@ -22,7 +22,7 @@ group= "com.zaddy.twid" // http://maven.apache.org/guides/mini/guide-naming-conv
 archivesBaseName = "TheWayItsDone"
 
 minecraft {
-    version = "1.7.10-10.13.2.1264"
+    version = "1.7.10-10.13.2.1272"
     runDir = "eclipse"
 }
 

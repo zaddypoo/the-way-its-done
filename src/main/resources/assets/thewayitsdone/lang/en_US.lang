@@ -2,12 +2,13 @@
 item.thewayitsdone:mapleLeaf.name=Maple Leaf
 item.thewayitsdone:husky.name=Zaddy's Creative Tab Icon Placeholder
 item.thewayitsdone:table.name=Random Table
-item.cheese.name=Roshan's Cheese
-item.grilledCheese.name=Grilled Cheese
+item.thewayitsdone:cheese.name=Roshan's Cheese
+item.thewayitsdone:grilledCheese.name=Grilled Cheese
 
 # Blocks
 tile.thewayitsdone:flag.name=Finland Flag
 tile.thewayitsdone:blockTable.name=Random Table
+tile.thewayitsdone:bomb.name=Weird Bomb
 
 # Creative Tabs
 itemGroup.thewayitsdone=Zaddy's Creative Tab

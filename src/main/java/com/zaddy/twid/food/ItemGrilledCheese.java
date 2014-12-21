@@ -1,9 +1,7 @@
 package com.zaddy.twid.food;
 
-import net.minecraft.item.ItemFood;
-
-public class ItemGrilledCheese extends ItemFood
-{
+public class ItemGrilledCheese extends FoodTWID
+    {
 
     public ItemGrilledCheese() {
         super(7, 0.6F, true);
